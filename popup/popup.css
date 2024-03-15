@@ -1,11 +1,22 @@
-body {
-    background-color: #222;
-    color: #eee;
+@import url("https://fonts.googleapis.com/css2?family=Madimi+One&display=swap");
 
-    width: 16rem;
-    height: 4rem;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-.special-text {
-    color: red;
+.container {
+  height: 400px;
+  width: 700px;
+  padding: 2rem 4rem;
+  display: grid;
+  place-items: center;
+}
+
+h1 {
+  font-family: "Madimi One", sans-serif;
+  font-size: 2rem;
+  color: #333;
+  margin-bottom: 1rem;
 }
