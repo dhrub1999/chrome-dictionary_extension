@@ -7,9 +7,50 @@
   </head>
   <body>
     <div class="container">
-      <h1>Welcome to <span>WordSense.</span></h1>
+      <div class="user-interface">
+        <div class="text-container">
+          <h1>Welcome to <span>WordSense.</span></h1>
+          <p>
+            Empower your Vocabulary Mastery, access instant definition,
+            contextual examples and personalized learning resources.
+          </p>
+        </div>
+
+        <div class="search-container">
+          <form action="" id="search-form">
+            <div class="form-group">
+              <label for="search" class="sr-only">I want to search...</label>
+              <input type="text" id="search" placeholder="welcome" />
+              <span class="msg" id="msg">Something went wrong</span>
+            </div>
+            <button type="submit">Search</button>
+          </form>
+        </div>
+      </div>
+      <div class="result-container">
+        <div class="searched-word">Welcome</div>
+        <div class="meaning">
+          <span class="parts-of-speech">noun</span>
+          <span class="word-meaning">A word to say dumb.</span>
+        </div>
+        <!-- <div class="definition">
+          <p>
+            Definition:
+            <span class="definition-text"
+              >Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque,
+              fugiat!</span
+            >
+          </p>
+          <p>
+            Synonyms:
+            <span class="synonyms-text"
+              >Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque,
+              fugiat!</span
+            >
+          </p>
+        </div> -->
+      </div>
     </div>
-    <script>
-    </script>
+    <script src="../foreground.js"></script>
   </body>
 </html>
